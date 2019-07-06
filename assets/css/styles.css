@@ -1,0 +1,36 @@
+@import "bootstrap.min.css";
+
+.body-inner-wrapper {
+	padding-top: 100px;
+}
+
+.nick-navbar-brand {
+	font-size: 24px;
+}
+
+h1.nick-title {
+	color: rgb(46, 232, 77);
+	background-color: rgba(46, 232, 77, 0.6);
+}
+.font-white {
+	color: white;
+}
+.img-wrapper img {
+	width: 100%;
+	height: auto;
+}
+body {
+  background-color: blue;
+}
+
+#banner .img-background {
+    background-image: url('../img/fortnite-max-omega.jpg');
+    min-height: 800px;
+    height: 70vh;
+}
+
+@media(max-width: 1920px) {
+    #banner .img-background {
+        min-height: 600px;
+    }
+}
