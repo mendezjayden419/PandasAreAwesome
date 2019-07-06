@@ -7,7 +7,7 @@
  */
 
 get_header(); ?>
-    <section id="post-listing" class="content-area">
+    <section id="post-listing" class="content-area testing-this">
         <div class="container">
             <div class="row">
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
